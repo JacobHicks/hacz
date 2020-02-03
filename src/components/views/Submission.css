@@ -1,0 +1,77 @@
+.testCaseDisplay {
+    height: 50px;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    background: #ffffff;
+}
+
+.testCaseTitleText {
+    color: #595959;
+    font-size: 100%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    padding-top: 16px;
+    line-height: 0;
+}
+
+.submissionField {
+    background: #fff;
+    border-style: double;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #b3b3b3;
+    min-height: 320px;
+    margin-top: 12px;
+    min-width: 700px;
+}
+
+.submissionContent {
+    padding: 0 24px 24px;
+}
+
+.divider {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+
+.titleText {
+    color: #222;
+    font-size: 16px;
+}
+
+.idText {
+    color: #69c0ff;
+    font-size: 16px;
+    padding-left: 8px;
+}
+
+.header {
+    display: flex;
+    background: #e8e8e8;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: #b3b3b3;
+}
+
+.codeHeader {
+    border: 1px solid #e8e8e8;
+    border-bottom: none;
+    margin-top: 8px;
+    margin-bottom: -1px;
+    height: 17px;
+    background: #fafafa;
+}
+
+.codeHeaderText {
+    margin-left: 6px;
+    font-size: 12px;
+    font-family: Monospaced, monospace;
+}
+
+.codeContent {
+    border: 1px solid #e8e8e8;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}

@@ -1,0 +1,27 @@
+.problemNameText {
+    text-align: left;
+    font-size: 170%;
+}
+
+.problemInfoText {
+    color: #595959;
+}
+
+.listItem {
+    height: 100px;
+    min-width: 500px;
+    background: #ffffff;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+}
+
+.subField {
+    background: #fff;
+    border-style: double;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-width: 1px;
+    border-color: #b3b3b3;
+    max-width: 325px;
+    min-width: 250px;
+}

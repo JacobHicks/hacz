@@ -1,0 +1,223 @@
+.logo {
+    width: 120px;
+    height: 31px;
+    background: url(../../logo.png);
+    margin: 16px 24px 16px 0;
+    float: left;
+}
+
+.title {
+    color: #222;
+    text-align: center;
+    font-size: 200%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.info {
+    color: #222;
+    margin: 0.5em;
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.5em;
+    font-size: 100%;
+}
+
+.description {
+    color: #222;
+    margin: 0.5em;
+    text-align: left;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.5em;
+    font-size: 110%;
+}
+
+.subheading {
+    color: #222;
+    margin: 0.5em;
+    text-align: left;
+    font-weight: bold;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.5em;
+    font-size: 133%;
+}
+
+.auxheading {
+    margin-left: 10px;
+    color: #222;
+    text-align: left;
+    font-weight: bold;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.5em;
+    font-size: 100%;
+}
+
+.divider {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+
+.layout {
+    min-height: 100vh;
+}
+
+.problem {
+    background: #fff;
+    border-style: double;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #b3b3b3;
+    padding: 24px;
+    min-height: 320px;
+    margin-right: 32px;
+    width: 75%;
+    height: 100%;
+}
+
+.subField {
+    background: #fff;
+    border-style: double;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-width: 1px;
+    border-color: #b3b3b3;
+    max-width: unset !important;
+    min-width: unset !important;
+    width: 100%;
+}
+
+.testCaseText {
+     color: rgba(37, 36, 37, 0.68);
+     margin: 0.5em 0.5em 0.5em 10px;
+     text-align: center;
+     font-family: Arial, sans-serif;
+     line-height: 1.5em;
+     font-size: 85%;
+}
+
+.whiteTestCaseText {
+    color: rgba(192, 192, 192, 0.68);
+    margin: 0.5em 0.5em 0.5em 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    line-height: 1.5em;
+    font-size: 85%;
+}
+
+.unTested {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #b3b3b3;
+    background: #d3d3d3;
+    width: 100%;
+    height: 27px;
+}
+
+.correct {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #87d068;
+    background: #87d068;
+    width: 100%;
+    height: 27px;
+}
+
+.wrong {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ff251d;
+    background: #ff251d;
+    width: 100%;
+    height: 27px;
+}
+
+.unknown {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #202020;
+    background: rgba(46, 46, 46, 0.95);
+    width: 100%;
+    height: 27px;
+}
+
+.hack {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #202020;
+    background: rgba(46, 46, 46, 0.95);
+    width: 100%;
+    height: 27px;
+}
+
+.caseIcons {
+    margin-left: 10px;
+}
+
+.solutionButton {
+    padding-bottom: 16px;
+    padding-top: 4px;
+}
+
+.submissionGrid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.timeCell, .verdictCell, .idCell, .titleTimeCell, .titleIdCell, .titleVerdictCell {
+    border-top: solid;
+    border-right: solid;
+    border-width: 1px;
+    border-color: #999999;
+    background: #d3d3d3;
+    text-align: center;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 80%;
+}
+
+.idCell, .titleIdCell {
+    font-size: 90%;
+}
+
+.verdictCell, .titleVerdictCell {
+    border-right: none;
+}
+
+.titleIdCell, .titleTimeCell, .titleVerdictCell {
+    background: #ffffff;
+    font-size: 90%;
+}
+
+.acText {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 100%;
+    color: #009206;
+}
+
+.sampleCase {
+    margin: 0 0 22px 22px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    display: inline-block;
+}
+
+.sampleName {
+    border: 1px solid #d9d9d9;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 0 8px;
+    background: #fbfbfb;
+}
+
+.ioTitle {
+    padding: 0 8px;
+    border-bottom: 1px solid #e8e8e8;
+    background: #fbfbfb;
+}
+
+.io {
+    padding: 0 8px;
+    font-family: Consolas, monospace;
+    background: #f5f5f5;
+    color: #ab0100;
+    white-space: pre;
+    border-bottom: 1px solid #d9d9d9;
+}
